@@ -6,7 +6,7 @@ const engineer = new Engineer('Frank', 1, 'frank@email.com', 'XYZ123');
 
 describe("Engineer's GitHub", () => {
     it("Returns the Engineer's GitHub username", () => {
-        expect(engineer.getHubUserName()).toBe('XYZ123');
+        expect(engineer.getGitHub()).toBe('XYZ123');
     });
 });
 
